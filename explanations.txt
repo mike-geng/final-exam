@@ -1,0 +1,14 @@
+Michael Geng
+CS 3560 Final Exam
+------------------
+
+Explanations of screenshots:
+Valgrind:
+  In the valgrind screenshot we can see that there were no memory leaks in my program.
+  All data was handled well.
+
+CPPCheck:
+  In my CPPCheck you can see that there were quite a few amount of warnings that it gave me. This is
+  because when creating my character arrays I set their size to 50 to account for fairly larger inputs
+  that I could have recieved. So when CPPCheck saw that the arrays were not filled seeing how my inputs
+  were smaller than size 50, it gave me warnings for each slot that was unused.
